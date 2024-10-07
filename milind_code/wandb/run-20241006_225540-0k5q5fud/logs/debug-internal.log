@@ -1,0 +1,230 @@
+2024-10-06 22:55:40,398 INFO    StreamThr :9456 [internal.py:wandb_internal():85] W&B internal server running at pid: 9456, started at: 2024-10-06 22:55:40.397725
+2024-10-06 22:55:40,399 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: status
+2024-10-06 22:55:40,401 INFO    WriterThread:9456 [datastore.py:open_for_write():87] open: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/run-0k5q5fud.wandb
+2024-10-06 22:55:40,402 DEBUG   SenderThread:9456 [sender.py:send():379] send: header
+2024-10-06 22:55:40,402 DEBUG   SenderThread:9456 [sender.py:send():379] send: run
+2024-10-06 22:55:40,637 INFO    SenderThread:9456 [dir_watcher.py:__init__():211] watching files in: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files
+2024-10-06 22:55:40,637 INFO    SenderThread:9456 [sender.py:_start_run_threads():1188] run started: 0k5q5fud with start time 1728273340.398589
+2024-10-06 22:55:40,643 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: check_version
+2024-10-06 22:55:40,643 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: check_version
+2024-10-06 22:55:40,704 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: run_start
+2024-10-06 22:55:40,711 DEBUG   HandlerThread:9456 [system_info.py:__init__():26] System info init
+2024-10-06 22:55:40,711 DEBUG   HandlerThread:9456 [system_info.py:__init__():41] System info init done
+2024-10-06 22:55:40,712 INFO    HandlerThread:9456 [system_monitor.py:start():194] Starting system monitor
+2024-10-06 22:55:40,712 INFO    SystemMonitor:9456 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-06 22:55:40,712 INFO    HandlerThread:9456 [system_monitor.py:probe():214] Collecting system info
+2024-10-06 22:55:40,714 INFO    SystemMonitor:9456 [interfaces.py:start():188] Started cpu monitoring
+2024-10-06 22:55:40,715 ERROR   HandlerThread:9456 [gpu_apple.py:probe():176] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 164, in probe
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 22:55:40,717 INFO    SystemMonitor:9456 [interfaces.py:start():188] Started disk monitoring
+2024-10-06 22:55:40,719 DEBUG   HandlerThread:9456 [system_info.py:probe():152] Probing system
+2024-10-06 22:55:40,720 INFO    SystemMonitor:9456 [interfaces.py:start():188] Started gpuapple monitoring
+2024-10-06 22:55:40,721 INFO    SystemMonitor:9456 [interfaces.py:start():188] Started memory monitoring
+2024-10-06 22:55:40,721 ERROR   gpuapple  :9456 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 22:55:40,722 INFO    SystemMonitor:9456 [interfaces.py:start():188] Started network monitoring
+2024-10-06 22:55:40,724 DEBUG   HandlerThread:9456 [gitlib.py:_init_repo():56] git repository is invalid
+2024-10-06 22:55:40,724 DEBUG   HandlerThread:9456 [system_info.py:probe():200] Probing system done
+2024-10-06 22:55:40,724 DEBUG   HandlerThread:9456 [system_monitor.py:probe():223] {'os': 'macOS-14.6.1-arm64-arm-64bit', 'python': '3.12.2', 'heartbeatAt': '2024-10-07T03:55:40.720773', 'startedAt': '2024-10-07T03:55:40.389305', 'docker': None, 'cuda': None, 'args': ('data.pkl', 'LR'), 'state': 'running', 'program': '/Users/milind/Desktop/valence/milind_code/train_non_llm.py', 'codePathLocal': 'train_non_llm.py', 'codePath': 'train_non_llm.py', 'host': 'Milinds-MacBook-Pro.local', 'username': 'milind', 'executable': '/opt/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 167.2912712097168}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-10-06 22:55:40,724 INFO    HandlerThread:9456 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-06 22:55:40,724 INFO    HandlerThread:9456 [system_monitor.py:probe():227] Publishing system info
+2024-10-06 22:55:40,724 DEBUG   HandlerThread:9456 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-10-06 22:55:41,642 INFO    Thread-12 :9456 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/conda-environment.yaml
+2024-10-06 22:55:42,728 ERROR   gpuapple  :9456 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 22:55:42,823 DEBUG   HandlerThread:9456 [system_info.py:_save_conda():224] Saving conda packages done
+2024-10-06 22:55:42,823 INFO    HandlerThread:9456 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-06 22:55:42,825 DEBUG   SenderThread:9456 [sender.py:send():379] send: files
+2024-10-06 22:55:42,825 INFO    SenderThread:9456 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-10-06 22:55:43,059 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-06 22:55:43,059 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: python_packages
+2024-10-06 22:55:43,059 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 22:55:43,059 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-06 22:55:43,060 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: stop_status
+2024-10-06 22:55:43,168 DEBUG   SenderThread:9456 [sender.py:send():379] send: telemetry
+2024-10-06 22:55:43,172 INFO    wandb-upload_0:9456 [upload_job.py:push():130] Uploaded file /var/folders/jv/wvjkll0d0vl_clbchr37hpk40000gn/T/tmp9mh8cugnwandb/7k2vwook-wandb-metadata.json
+2024-10-06 22:55:43,651 INFO    Thread-12 :9456 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/conda-environment.yaml
+2024-10-06 22:55:43,651 INFO    Thread-12 :9456 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/requirements.txt
+2024-10-06 22:55:43,651 INFO    Thread-12 :9456 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/wandb-metadata.json
+2024-10-06 22:55:44,101 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 22:55:44,106 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-06 22:55:44,107 DEBUG   SenderThread:9456 [sender.py:send():379] send: history
+2024-10-06 22:55:44,107 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: summary_record
+2024-10-06 22:55:44,107 INFO    SenderThread:9456 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-06 22:55:44,108 DEBUG   SenderThread:9456 [sender.py:send():379] send: telemetry
+2024-10-06 22:55:44,108 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: server_info
+2024-10-06 22:55:44,108 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: server_info
+2024-10-06 22:55:44,150 DEBUG   SenderThread:9456 [sender.py:send():379] send: exit
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:send_exit():586] handling exit code: 0
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:send_exit():588] handling runtime: 3
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:send_exit():594] send defer
+2024-10-06 22:55:44,150 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,150 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-06 22:55:44,150 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 1
+2024-10-06 22:55:44,150 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,150 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-06 22:55:44,150 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-10-06 22:55:44,150 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 2
+2024-10-06 22:55:44,150 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,150 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-06 22:55:44,150 INFO    HandlerThread:9456 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-06 22:55:44,150 DEBUG   SystemMonitor:9456 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-06 22:55:44,151 INFO    HandlerThread:9456 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-06 22:55:44,151 DEBUG   SystemMonitor:9456 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-06 22:55:44,151 INFO    HandlerThread:9456 [interfaces.py:finish():200] Joined disk monitor
+2024-10-06 22:55:44,151 DEBUG   SystemMonitor:9456 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-06 22:55:44,151 INFO    HandlerThread:9456 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-10-06 22:55:44,151 INFO    HandlerThread:9456 [interfaces.py:finish():200] Joined memory monitor
+2024-10-06 22:55:44,151 INFO    HandlerThread:9456 [interfaces.py:finish():200] Joined network monitor
+2024-10-06 22:55:44,151 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,151 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-10-06 22:55:44,151 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 3
+2024-10-06 22:55:44,151 DEBUG   SenderThread:9456 [sender.py:send():379] send: telemetry
+2024-10-06 22:55:44,151 DEBUG   SenderThread:9456 [sender.py:send():379] send: stats
+2024-10-06 22:55:44,151 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,151 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-06 22:55:44,151 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,151 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-10-06 22:55:44,151 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 4
+2024-10-06 22:55:44,151 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,152 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-06 22:55:44,152 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,152 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-10-06 22:55:44,152 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 5
+2024-10-06 22:55:44,152 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,152 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-06 22:55:44,152 DEBUG   SenderThread:9456 [sender.py:send():379] send: summary
+2024-10-06 22:55:44,152 INFO    SenderThread:9456 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-06 22:55:44,152 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,152 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-10-06 22:55:44,152 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 6
+2024-10-06 22:55:44,152 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,152 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-06 22:55:44,152 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,152 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-10-06 22:55:44,153 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 22:55:44,505 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 7
+2024-10-06 22:55:44,505 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:44,505 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-06 22:55:44,506 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:44,506 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-10-06 22:55:44,656 INFO    Thread-12 :9456 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/config.yaml
+2024-10-06 22:55:44,657 INFO    Thread-12 :9456 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/wandb-summary.json
+2024-10-06 22:55:44,657 INFO    Thread-12 :9456 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/output.log
+2024-10-06 22:55:45,156 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-06 22:55:46,116 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 8
+2024-10-06 22:55:46,116 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: poll_exit
+2024-10-06 22:55:46,116 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:46,117 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-06 22:55:46,118 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:46,118 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-10-06 22:55:46,118 INFO    SenderThread:9456 [job_builder.py:build():440] Attempting to build job artifact
+2024-10-06 22:55:46,120 INFO    SenderThread:9456 [job_builder.py:_get_source_type():580] no source found
+2024-10-06 22:55:46,120 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 9
+2024-10-06 22:55:46,120 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:46,120 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-06 22:55:46,121 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:46,121 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-10-06 22:55:46,121 INFO    SenderThread:9456 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-06 22:55:46,162 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-06 22:55:46,666 INFO    SenderThread:9456 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/output.log
+2024-10-06 22:55:46,667 INFO    SenderThread:9456 [dir_watcher.py:finish():388] scan: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files
+2024-10-06 22:55:46,667 INFO    SenderThread:9456 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/requirements.txt requirements.txt
+2024-10-06 22:55:46,667 INFO    SenderThread:9456 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/output.log output.log
+2024-10-06 22:55:46,670 INFO    SenderThread:9456 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/config.yaml config.yaml
+2024-10-06 22:55:46,672 INFO    SenderThread:9456 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/wandb-summary.json wandb-summary.json
+2024-10-06 22:55:46,674 INFO    SenderThread:9456 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/conda-environment.yaml conda-environment.yaml
+2024-10-06 22:55:46,675 INFO    SenderThread:9456 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/wandb-metadata.json wandb-metadata.json
+2024-10-06 22:55:46,677 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 10
+2024-10-06 22:55:46,678 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: poll_exit
+2024-10-06 22:55:46,679 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:46,679 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-06 22:55:46,680 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:46,680 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-10-06 22:55:46,680 INFO    SenderThread:9456 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-06 22:55:46,883 INFO    wandb-upload_0:9456 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/requirements.txt
+2024-10-06 22:55:46,937 INFO    wandb-upload_1:9456 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/output.log
+2024-10-06 22:55:46,947 INFO    wandb-upload_3:9456 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/wandb-summary.json
+2024-10-06 22:55:46,948 INFO    wandb-upload_2:9456 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/config.yaml
+2024-10-06 22:55:47,000 INFO    wandb-upload_4:9456 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/files/conda-environment.yaml
+2024-10-06 22:55:47,166 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-06 22:55:47,166 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: poll_exit
+2024-10-06 22:55:47,205 INFO    Thread-11 (_thread_body):9456 [sender.py:transition_state():614] send defer: 11
+2024-10-06 22:55:47,205 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:47,206 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-06 22:55:47,206 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:47,206 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-10-06 22:55:47,206 INFO    SenderThread:9456 [file_pusher.py:join():175] waiting for file pusher
+2024-10-06 22:55:47,207 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 12
+2024-10-06 22:55:47,207 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:47,207 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-06 22:55:47,207 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:47,207 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-10-06 22:55:47,207 INFO    SenderThread:9456 [file_stream.py:finish():601] file stream finish called
+2024-10-06 22:55:47,298 INFO    SenderThread:9456 [file_stream.py:finish():605] file stream finish is done
+2024-10-06 22:55:47,298 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 13
+2024-10-06 22:55:47,299 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:47,299 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-06 22:55:47,299 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:47,299 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-10-06 22:55:47,300 INFO    SenderThread:9456 [sender.py:transition_state():614] send defer: 14
+2024-10-06 22:55:47,300 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 22:55:47,300 DEBUG   SenderThread:9456 [sender.py:send():379] send: final
+2024-10-06 22:55:47,300 INFO    HandlerThread:9456 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-06 22:55:47,300 DEBUG   SenderThread:9456 [sender.py:send():379] send: footer
+2024-10-06 22:55:47,301 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: defer
+2024-10-06 22:55:47,301 INFO    SenderThread:9456 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-10-06 22:55:47,302 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-06 22:55:47,302 DEBUG   SenderThread:9456 [sender.py:send_request():406] send_request: poll_exit
+2024-10-06 22:55:47,303 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 22:55:47,304 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-06 22:55:47,304 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-06 22:55:47,307 DEBUG   HandlerThread:9456 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-06 22:55:47,307 INFO    HandlerThread:9456 [handler.py:finish():882] shutting down handler
+2024-10-06 22:55:48,305 INFO    WriterThread:9456 [datastore.py:close():296] close: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_225540-0k5q5fud/run-0k5q5fud.wandb
+2024-10-06 22:55:48,305 INFO    SenderThread:9456 [sender.py:finish():1608] shutting down sender
+2024-10-06 22:55:48,305 INFO    SenderThread:9456 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-06 22:55:48,306 INFO    SenderThread:9456 [file_pusher.py:join():175] waiting for file pusher

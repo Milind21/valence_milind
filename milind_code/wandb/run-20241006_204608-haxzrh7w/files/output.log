@@ -1,0 +1,11 @@
+UAR:0.508999425012189
+kappa:0.1355211603542521
+rho:0.40692930515530845
+Traceback (most recent call last):
+  File "/Users/milind/Desktop/valence/milind_code/non_llm.py", line 92, in <module>
+    main()
+  File "/Users/milind/Desktop/valence/milind_code/non_llm.py", line 88, in main
+    train(data=data)
+  File "/Users/milind/Desktop/valence/milind_code/non_llm.py", line 76, in train
+    wandb.summary({
+TypeError: 'Summary' object is not callable

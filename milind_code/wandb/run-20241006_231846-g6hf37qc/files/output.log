@@ -1,0 +1,6 @@
+
+Fitting 5 folds for each of 10 candidates, totalling 50 fits
+Best Parameters: {'subsample': 0.9, 'n_estimators': 100, 'max_depth': 7, 'learning_rate': 0.03162277660168379, 'gamma': 0.3, 'colsample_bytree': 0.7}
+UAR:0.28097291691762993
+kappa:0.04016569652584845
+rho:0.4689117034346798

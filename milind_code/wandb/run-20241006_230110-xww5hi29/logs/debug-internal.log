@@ -1,0 +1,562 @@
+2024-10-06 23:01:10,956 INFO    StreamThr :9541 [internal.py:wandb_internal():85] W&B internal server running at pid: 9541, started at: 2024-10-06 23:01:10.956074
+2024-10-06 23:01:10,956 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status
+2024-10-06 23:01:10,958 INFO    WriterThread:9541 [datastore.py:open_for_write():87] open: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/run-xww5hi29.wandb
+2024-10-06 23:01:10,958 DEBUG   SenderThread:9541 [sender.py:send():379] send: header
+2024-10-06 23:01:10,958 DEBUG   SenderThread:9541 [sender.py:send():379] send: run
+2024-10-06 23:01:11,206 INFO    SenderThread:9541 [dir_watcher.py:__init__():211] watching files in: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files
+2024-10-06 23:01:11,206 INFO    SenderThread:9541 [sender.py:_start_run_threads():1188] run started: xww5hi29 with start time 1728273670.95666
+2024-10-06 23:01:11,211 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: check_version
+2024-10-06 23:01:11,211 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: check_version
+2024-10-06 23:01:11,265 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: run_start
+2024-10-06 23:01:11,271 DEBUG   HandlerThread:9541 [system_info.py:__init__():26] System info init
+2024-10-06 23:01:11,271 DEBUG   HandlerThread:9541 [system_info.py:__init__():41] System info init done
+2024-10-06 23:01:11,271 INFO    HandlerThread:9541 [system_monitor.py:start():194] Starting system monitor
+2024-10-06 23:01:11,271 INFO    SystemMonitor:9541 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-06 23:01:11,271 INFO    HandlerThread:9541 [system_monitor.py:probe():214] Collecting system info
+2024-10-06 23:01:11,271 INFO    SystemMonitor:9541 [interfaces.py:start():188] Started cpu monitoring
+2024-10-06 23:01:11,275 ERROR   HandlerThread:9541 [gpu_apple.py:probe():176] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 164, in probe
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:11,275 INFO    SystemMonitor:9541 [interfaces.py:start():188] Started disk monitoring
+2024-10-06 23:01:11,278 DEBUG   HandlerThread:9541 [system_info.py:probe():152] Probing system
+2024-10-06 23:01:11,279 INFO    SystemMonitor:9541 [interfaces.py:start():188] Started gpuapple monitoring
+2024-10-06 23:01:11,280 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:11,280 INFO    SystemMonitor:9541 [interfaces.py:start():188] Started memory monitoring
+2024-10-06 23:01:11,281 INFO    SystemMonitor:9541 [interfaces.py:start():188] Started network monitoring
+2024-10-06 23:01:11,283 DEBUG   HandlerThread:9541 [gitlib.py:_init_repo():56] git repository is invalid
+2024-10-06 23:01:11,283 DEBUG   HandlerThread:9541 [system_info.py:probe():200] Probing system done
+2024-10-06 23:01:11,283 DEBUG   HandlerThread:9541 [system_monitor.py:probe():223] {'os': 'macOS-14.6.1-arm64-arm-64bit', 'python': '3.12.2', 'heartbeatAt': '2024-10-07T04:01:11.278147', 'startedAt': '2024-10-07T04:01:10.951046', 'docker': None, 'cuda': None, 'args': ('data.pkl', 'SVC'), 'state': 'running', 'program': '/Users/milind/Desktop/valence/milind_code/train_non_llm.py', 'codePathLocal': 'train_non_llm.py', 'codePath': 'train_non_llm.py', 'host': 'Milinds-MacBook-Pro.local', 'username': 'milind', 'executable': '/opt/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 167.31452560424805}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-10-06 23:01:11,283 INFO    HandlerThread:9541 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-06 23:01:11,283 INFO    HandlerThread:9541 [system_monitor.py:probe():227] Publishing system info
+2024-10-06 23:01:11,283 DEBUG   HandlerThread:9541 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-10-06 23:01:12,212 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/conda-environment.yaml
+2024-10-06 23:01:13,296 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:13,586 DEBUG   HandlerThread:9541 [system_info.py:_save_conda():224] Saving conda packages done
+2024-10-06 23:01:13,586 INFO    HandlerThread:9541 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-06 23:01:13,589 DEBUG   SenderThread:9541 [sender.py:send():379] send: files
+2024-10-06 23:01:13,589 INFO    SenderThread:9541 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-10-06 23:01:13,812 INFO    wandb-upload_0:9541 [upload_job.py:push():130] Uploaded file /var/folders/jv/wvjkll0d0vl_clbchr37hpk40000gn/T/tmpo_86sr6vwandb/0ukaxika-wandb-metadata.json
+2024-10-06 23:01:13,820 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-06 23:01:13,820 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: python_packages
+2024-10-06 23:01:13,821 DEBUG   SenderThread:9541 [sender.py:send():379] send: telemetry
+2024-10-06 23:01:13,821 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-06 23:01:13,821 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:13,821 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: stop_status
+2024-10-06 23:01:14,218 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/conda-environment.yaml
+2024-10-06 23:01:14,218 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/requirements.txt
+2024-10-06 23:01:14,218 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/wandb-metadata.json
+2024-10-06 23:01:14,821 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:15,304 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:15,823 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:15,985 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:16,828 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:17,313 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:17,834 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:18,838 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:19,320 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:19,844 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:20,849 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:21,330 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:21,837 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:21,854 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:22,859 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:23,340 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:23,863 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:24,869 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:25,352 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:25,877 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:26,841 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:26,879 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:27,366 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:27,882 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:28,826 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-06 23:01:28,827 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: stop_status
+2024-10-06 23:01:28,887 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:29,375 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:29,892 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:30,893 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:31,384 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:31,897 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:31,909 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:32,902 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:33,391 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:33,907 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:34,912 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:35,399 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:35,914 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:36,918 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:37,406 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:37,856 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:37,924 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:38,929 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:39,414 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:39,934 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:40,939 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:41,422 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:41,944 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:42,862 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:42,948 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:43,348 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/config.yaml
+2024-10-06 23:01:43,430 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:43,830 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-06 23:01:43,831 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: stop_status
+2024-10-06 23:01:43,953 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:44,958 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:45,439 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:45,963 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:46,965 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:47,446 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:47,966 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:47,996 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:48,971 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:49,453 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:49,976 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:50,981 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:51,461 ERROR   gpuapple  :9541 [gpu_apple.py:sample():110] GPU stats error: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/wandb/sdk/internal/system/assets/gpu_apple.py", line 64, in sample
+    subprocess.check_output(command, universal_newlines=True)
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/opt/anaconda3/lib/python3.12/subprocess.py", line 1953, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/anaconda3/lib/python3.12/site-packages/wandb/bin/apple_gpu_stats'
+2024-10-06 23:01:52,008 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:52,473 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-06 23:01:52,474 DEBUG   SenderThread:9541 [sender.py:send():379] send: history
+2024-10-06 23:01:52,475 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: summary_record
+2024-10-06 23:01:52,475 INFO    SenderThread:9541 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-06 23:01:52,480 DEBUG   SenderThread:9541 [sender.py:send():379] send: telemetry
+2024-10-06 23:01:52,483 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: server_info
+2024-10-06 23:01:52,483 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: server_info
+2024-10-06 23:01:52,515 DEBUG   SenderThread:9541 [sender.py:send():379] send: exit
+2024-10-06 23:01:52,515 INFO    SenderThread:9541 [sender.py:send_exit():586] handling exit code: 0
+2024-10-06 23:01:52,516 INFO    SenderThread:9541 [sender.py:send_exit():588] handling runtime: 41
+2024-10-06 23:01:52,516 INFO    SenderThread:9541 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-06 23:01:52,516 INFO    SenderThread:9541 [sender.py:send_exit():594] send defer
+2024-10-06 23:01:52,516 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,516 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-06 23:01:52,516 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,516 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-10-06 23:01:52,516 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 1
+2024-10-06 23:01:52,516 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-06 23:01:52,517 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,517 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-10-06 23:01:52,517 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 2
+2024-10-06 23:01:52,517 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-06 23:01:52,517 DEBUG   SystemMonitor:9541 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-06 23:01:52,517 DEBUG   SystemMonitor:9541 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-06 23:01:52,517 DEBUG   SystemMonitor:9541 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [interfaces.py:finish():200] Joined disk monitor
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [interfaces.py:finish():200] Joined gpuapple monitor
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [interfaces.py:finish():200] Joined memory monitor
+2024-10-06 23:01:52,517 INFO    HandlerThread:9541 [interfaces.py:finish():200] Joined network monitor
+2024-10-06 23:01:52,518 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 3
+2024-10-06 23:01:52,518 DEBUG   SenderThread:9541 [sender.py:send():379] send: telemetry
+2024-10-06 23:01:52,518 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,518 DEBUG   SenderThread:9541 [sender.py:send():379] send: stats
+2024-10-06 23:01:52,518 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-06 23:01:52,518 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 4
+2024-10-06 23:01:52,518 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,518 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-06 23:01:52,518 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 5
+2024-10-06 23:01:52,518 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,518 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-06 23:01:52,518 DEBUG   SenderThread:9541 [sender.py:send():379] send: summary
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-10-06 23:01:52,518 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-10-06 23:01:52,518 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 6
+2024-10-06 23:01:52,518 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,518 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-06 23:01:52,519 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,519 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-10-06 23:01:52,520 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: status_report
+2024-10-06 23:01:52,689 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 7
+2024-10-06 23:01:52,689 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:52,689 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-06 23:01:52,689 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:52,689 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-10-06 23:01:53,396 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/config.yaml
+2024-10-06 23:01:53,397 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/wandb-summary.json
+2024-10-06 23:01:53,397 INFO    Thread-12 :9541 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/output.log
+2024-10-06 23:01:53,521 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-06 23:01:54,522 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 8
+2024-10-06 23:01:54,527 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: poll_exit
+2024-10-06 23:01:54,536 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:54,536 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-06 23:01:54,537 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:54,537 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-10-06 23:01:54,537 INFO    SenderThread:9541 [job_builder.py:build():440] Attempting to build job artifact
+2024-10-06 23:01:54,537 INFO    SenderThread:9541 [job_builder.py:_get_source_type():580] no source found
+2024-10-06 23:01:54,539 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 9
+2024-10-06 23:01:54,539 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:54,539 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-06 23:01:54,539 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:54,540 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-10-06 23:01:54,540 INFO    SenderThread:9541 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-06 23:01:55,405 INFO    SenderThread:9541 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/output.log
+2024-10-06 23:01:55,406 INFO    SenderThread:9541 [dir_watcher.py:finish():388] scan: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files
+2024-10-06 23:01:55,406 INFO    SenderThread:9541 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/requirements.txt requirements.txt
+2024-10-06 23:01:55,406 INFO    SenderThread:9541 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/output.log output.log
+2024-10-06 23:01:55,409 INFO    SenderThread:9541 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/config.yaml config.yaml
+2024-10-06 23:01:55,411 INFO    SenderThread:9541 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/wandb-summary.json wandb-summary.json
+2024-10-06 23:01:55,411 INFO    SenderThread:9541 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/conda-environment.yaml conda-environment.yaml
+2024-10-06 23:01:55,415 INFO    SenderThread:9541 [dir_watcher.py:finish():402] scan save: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/wandb-metadata.json wandb-metadata.json
+2024-10-06 23:01:55,416 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 10
+2024-10-06 23:01:55,418 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:55,418 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-06 23:01:55,419 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:55,419 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-10-06 23:01:55,419 INFO    SenderThread:9541 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-06 23:01:55,531 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-06 23:01:55,531 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: poll_exit
+2024-10-06 23:01:55,621 INFO    wandb-upload_1:9541 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/output.log
+2024-10-06 23:01:55,679 INFO    wandb-upload_2:9541 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/config.yaml
+2024-10-06 23:01:55,679 INFO    wandb-upload_0:9541 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/requirements.txt
+2024-10-06 23:01:55,680 INFO    wandb-upload_3:9541 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/wandb-summary.json
+2024-10-06 23:01:55,680 INFO    wandb-upload_4:9541 [upload_job.py:push():130] Uploaded file /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/files/conda-environment.yaml
+2024-10-06 23:01:55,885 INFO    Thread-11 (_thread_body):9541 [sender.py:transition_state():614] send defer: 11
+2024-10-06 23:01:55,886 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:55,886 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-06 23:01:55,887 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:55,887 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-10-06 23:01:55,887 INFO    SenderThread:9541 [file_pusher.py:join():175] waiting for file pusher
+2024-10-06 23:01:55,888 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 12
+2024-10-06 23:01:55,888 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:55,888 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-06 23:01:55,889 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:55,889 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-10-06 23:01:55,889 INFO    SenderThread:9541 [file_stream.py:finish():601] file stream finish called
+2024-10-06 23:01:55,955 INFO    SenderThread:9541 [file_stream.py:finish():605] file stream finish is done
+2024-10-06 23:01:55,955 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 13
+2024-10-06 23:01:55,955 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:55,955 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-06 23:01:55,956 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:55,956 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-10-06 23:01:55,956 INFO    SenderThread:9541 [sender.py:transition_state():614] send defer: 14
+2024-10-06 23:01:55,956 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: defer
+2024-10-06 23:01:55,956 DEBUG   SenderThread:9541 [sender.py:send():379] send: final
+2024-10-06 23:01:55,956 INFO    HandlerThread:9541 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-06 23:01:55,956 DEBUG   SenderThread:9541 [sender.py:send():379] send: footer
+2024-10-06 23:01:55,957 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: defer
+2024-10-06 23:01:55,957 INFO    SenderThread:9541 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-10-06 23:01:55,958 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-06 23:01:55,958 DEBUG   SenderThread:9541 [sender.py:send_request():406] send_request: poll_exit
+2024-10-06 23:01:55,959 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-06 23:01:55,960 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-06 23:01:55,960 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-06 23:01:55,966 DEBUG   HandlerThread:9541 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-06 23:01:55,966 INFO    HandlerThread:9541 [handler.py:finish():882] shutting down handler
+2024-10-06 23:01:56,959 INFO    WriterThread:9541 [datastore.py:close():296] close: /Users/milind/Desktop/valence/milind_code/wandb/run-20241006_230110-xww5hi29/run-xww5hi29.wandb
+2024-10-06 23:01:56,959 INFO    SenderThread:9541 [sender.py:finish():1608] shutting down sender
+2024-10-06 23:01:56,959 INFO    SenderThread:9541 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-06 23:01:56,959 INFO    SenderThread:9541 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,6 @@
+
+Fitting 5 folds for each of 10 candidates, totalling 50 fits
+Best Parameters: {'kernel': 'poly', 'gamma': 1.0, 'C': 0.1}
+UAR:0.2
+kappa:0.0
+rho:0.46524527825795137

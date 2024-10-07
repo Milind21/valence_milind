@@ -1,0 +1,6 @@
+
+Fitting 5 folds for each of 10 candidates, totalling 50 fits
+Best Parameters: {'n_estimators': 10, 'min_samples_split': 20, 'min_samples_leaf': 8, 'max_features': 'log2', 'max_depth': 1}
+UAR:0.2
+kappa:0.0
+rho:0.46524527825795137

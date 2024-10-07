@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/milind/Desktop/valence/milind_code/train_non_llm.py", line 240, in <module>
+    main()
+  File "/Users/milind/Desktop/valence/milind_code/train_non_llm.py", line 232, in main
+    train_xgb(data=data)
+  File "/Users/milind/Desktop/valence/milind_code/train_non_llm.py", line 183, in train_xgb
+    random_search = RandomizedSearchCV(estimator=model, param_distributions=param_grid, cv=cv, n_jobs=-1, scoring=custom_metric, verbose=3)
+                                                 ^^^^^
+NameError: name 'model' is not defined

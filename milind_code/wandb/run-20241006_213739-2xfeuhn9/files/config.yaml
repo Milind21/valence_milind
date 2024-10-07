@@ -1,0 +1,63 @@
+wandb_version: 1
+
+n_estimators:
+  desc: null
+  value:
+  - 50
+  - 100
+  - 200
+max_depth:
+  desc: null
+  value:
+  - 1
+  - 10
+  - 20
+  - 30
+min_samples_split:
+  desc: null
+  value:
+  - 2
+  - 5
+  - 10
+min_samples_leaf:
+  desc: null
+  value:
+  - 1
+  - 2
+  - 4
+max_features:
+  desc: null
+  value:
+  - sqrt
+  - log2
+_wandb:
+  desc: null
+  value:
+    python_version: 3.12.2
+    cli_version: 0.17.3
+    framework: xgboost
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1728268659
+    t:
+      1:
+      - 5
+      - 6
+      - 53
+      - 55
+      2:
+      - 5
+      - 6
+      - 53
+      - 55
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      4: 3.12.2
+      5: 0.17.3
+      8:
+      - 4
+      - 5
+      13: darwin-arm64

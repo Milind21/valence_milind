@@ -1,0 +1,33 @@
+{
+    "os": "macOS-14.6.1-arm64-arm-64bit",
+    "python": "3.12.2",
+    "heartbeatAt": "2024-10-07T02:23:30.185622",
+    "startedAt": "2024-10-07T02:23:29.851780",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "data.pkl"
+    ],
+    "state": "running",
+    "program": "/Users/milind/Desktop/valence/milind_code/non_llm.py",
+    "codePathLocal": "non_llm.py",
+    "codePath": "non_llm.py",
+    "host": "Milinds-MacBook-Pro.local",
+    "username": "milind",
+    "executable": "/opt/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 166.43209075927734
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
