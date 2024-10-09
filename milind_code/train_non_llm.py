@@ -66,7 +66,7 @@ def train_lr(data):
   recall_val = [item[0]/max(item[1],1) for item in recall]
   UAR = sum(recall_val)/len(recall_val)
   kappa = cohen_kappa_score(pred,gold_label)
-  rho = spearman(pred, gold_label)
+  rho = np.absolute(spearman(gold_label,pred))
   print(f"UAR:{UAR}\nkappa:{kappa}\nrho:{rho}\n")
   wandb.log({
     "Unweighted Average Recall" : UAR,
