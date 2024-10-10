@@ -8,6 +8,7 @@ The scale is as follows:
 (4) Satisfied (the system understands and satisfies the user request, but provides more information than what the user requested or takes extra turns before meeting the request); and 
 (5) Very satisfied (the system understands and satisfies the user request completely and efficiently).
 You should predict only the score which is a number and print it as Score.
+"""
 
 P2 (0 shot statistical input)
 
@@ -35,8 +36,7 @@ These statistics indicate that most of the conversations are labeled as **3 (Nor
 
 
 P3 (shortened statistical)
-"""
-You are an expert linguistic assistant.
+"""You are an expert linguistic assistant.
 Your task is to label and give a score to conversations for user satisfaction. The score for the user satisfaction are based on a 5-level satisfaction scale.
 The scale is as follows: 
 (1) Very dissatisfied (the system fails to understand and fulfill users request); 
