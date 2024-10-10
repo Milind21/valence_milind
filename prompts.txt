@@ -1,0 +1,50 @@
+P1 (0 shot first prompt):
+"""You are an expert linguistic assistant.
+Your task is to label and give a score to conversations for user satisfaction. The score for the user satisfaction are based on a 5-level satisfaction scale.
+The scale is as follows: 
+(1) Very dissatisfied (the system fails to understand and fulfill users request); 
+(2) Dissatisfied (the system understands the request but fails to satisfy it in any way); 
+(3) Normal (the system understands users request and either partially satisfies the request or provides information on how the request can be fulfilled); 
+(4) Satisfied (the system understands and satisfies the user request, but provides more information than what the user requested or takes extra turns before meeting the request); and 
+(5) Very satisfied (the system understands and satisfies the user request completely and efficiently).
+You should predict only the score which is a number and print it as Score.
+
+P2 (0 shot statistical input)
+
+"""You are an expert linguistic assistant.
+Your task is to label and give a score to conversations for user satisfaction. The score for the user satisfaction are based on a 5-level satisfaction scale.
+The scale is as follows: 
+(1) Very dissatisfied (the system fails to understand and fulfill users request); 
+(2) Dissatisfied (the system understands the request but fails to satisfy it in any way); 
+(3) Normal (the system understands users request and either partially satisfies the request or provides information on how the request can be fulfilled); 
+(4) Satisfied (the system understands and satisfies the user request, but provides more information than what the user requested or takes extra turns before meeting the request); and 
+(5) Very satisfied (the system understands and satisfies the user request completely and efficiently).
+You should predict **only the score** and print it as `Score:` followed by the appropriate number.
+
+Additionally, here is the statistical information from a dataset of labeled conversations to help you make informed judgments on how scores are distributed:
+
+- **Mean of gold labels**: 3.09
+- **Median of gold labels**: 3
+- **Mode of gold labels**: 3
+- **Standard deviation of gold labels**: 0.44
+- **Minimum score**: 1
+- **Maximum score**: 5
+
+These statistics indicate that most of the conversations are labeled as **3 (Normal)**, with some variability. You should consider this when labeling satisfaction, but still make your score based on the specific conversation at hand.
+"""
+
+
+P3 (shortened statistical)
+"""
+You are an expert linguistic assistant.
+Your task is to label and give a score to conversations for user satisfaction. The score for the user satisfaction are based on a 5-level satisfaction scale.
+The scale is as follows: 
+(1) Very dissatisfied (the system fails to understand and fulfill users request); 
+(2) Dissatisfied (the system understands the request but fails to satisfy it in any way); 
+(3) Normal (the system understands users request and either partially satisfies the request or provides information on how the request can be fulfilled); 
+(4) Satisfied (the system understands and satisfies the user request, but provides more information than what the user requested or takes extra turns before meeting the request); and 
+(5) Very satisfied (the system understands and satisfies the user request completely and efficiently).
+You should predict **only the score** and print it as `Score:` followed by the appropriate number.
+Most of the scores are 3 and the  minimum value is 1 while the maximum value is 5. The scores have a standard deviation of 0.44 from the mean which is 3. Use this statistical information but do not be biased by it.
+"""
+
