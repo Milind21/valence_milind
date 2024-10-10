@@ -1,0 +1,2002 @@
+[
+    {
+        "text": "USER: What is the weather like on the March 4th? SYSTEM: In which city should I look?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: The weather in Mill Valley. SYSTEM: The weather should be around 90 degrees and there is a 7 percent chance of rain.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: How humid will the temperature be? SYSTEM: There is about a 18 percent humidity.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Could you find a song from Jessie J album Who You Are? SYSTEM: There is 1 song Mamma Knows Best by Jessie J from the album Who you are.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Yes, play it on the kitchen device. SYSTEM: Play Mamma knows best on the kitchen speaker.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, play it on bedroom speaker instead. SYSTEM: Play Mamma Knows Best on bedroom speaker.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, thank you. What is the genre of the song? SYSTEM: The genre of the song is pop.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thank you for your help. SYSTEM: Can I help with anything else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, that is all. SYSTEM: Have a good day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'd like to check out a film. SYSTEM: Where would you like to see one?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: In San Ramon. SYSTEM: I got 9 for you. Breakthrough, Captain Marvel, and Dumbo, to start out.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Let go with Breakthrough. See if you can find an IMAX at Regal Crow Canyon on the 9th. SYSTEM: At Regal Cinemas Crow Canyon 6? There is a 4 pm show.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is cool. SYSTEM: So should I pick you up some tickets?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No. Don't do that. SYSTEM: What should I do?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Make a reservation at a nearby restaurant. SYSTEM: Do you have one in mind.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Yeah, I like McDonald's. SYSTEM: What time is good for you?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Half past 1 in the afternoon. SYSTEM: Table for 2 at McDonald's in San Ramon on March 9th at 1:30 pm. Is that accurate?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I need it for 3 at 11:45 am. SYSTEM: Table for 3 at 11:45 am?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Yes, thats right. SYSTEM: Sorry, can't do that at McDonald's. Should I try 12 pm on MArch 9th for 3?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, try that. SYSTEM: Done. You have a table.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Great work. Thanks. SYSTEM: What else do you have for me.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Nothing. Just relax. SYSTEM: Will do, thanks.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'd like to find a place to eat. SYSTEM: In which city? What kind of food would you like?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I'd like Sichuan in San Jose. SYSTEM: Chef Li in San Jose is nice.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: What's their address? SYSTEM: 2033 Camden Avenue # F3.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Can you check on another? I'm looking for something that is intermediate priced. SYSTEM: I found 9 possibilities. China Delight in San Jose is suppose to be nice.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Do they serve alcohol? SYSTEM: They do not.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Okay that sounds good. SYSTEM: Would you like a reservation?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Not just now. SYSTEM: Is there anything else you need?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'd like to find a movie nearby. SYSTEM: I found 10 nearby movies. What about A Madea Family Funeral, After or Breakthrough?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What are some others? I'd like a 3d movie. SYSTEM: There's How to Train Your Dragon: The Hidden World, Little or Missing Link.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: How to Train Your Dragon would be great. SYSTEM: Shall I order tickets?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, not just yet. SYSTEM: Is there anything else you need?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Let's go ahead and make a reservation at the restaurant. SYSTEM: For what time?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Evening 7:30 would be good. SYSTEM: Please verify: You'd like a reservation for 2 at China Delight in San Jose at 7:30 pm on March 1st.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Correct. Do they have live music? SYSTEM: Sorry I couldn't make the reservation. Is there anything else you need?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Try it again for 5:30 in the evening. SYSTEM: To verify: You would like a reservation for 2 at China Delight in San Jose at 5:30 pm on March 1st.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is right. SYSTEM: You're reservation is confirmed.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thank you. That's all I need for now. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I am not well and I need to find a doctor in San Jose. SYSTEM: Would you like to see a dermatologist, ophthalmologist or someone else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need to see a general practitioner. SYSTEM: I have found 10 in san jose. You would like to see a general practitioner call access health?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: What is their number and address? SYSTEM: There are located at 301 old san francisco road level 2 and the number is 408-729-7690.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Is there someone else I can go by? SYSTEM: There is a general practitioner in San jose by the name of benson frederick p md. Would that suit you better?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, that would be fine. SYSTEM: You would like to schedule a visit?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Not really. I would need a regular ride to get there. SYSTEM: How many seats?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Just 1 seat. SYSTEM: You are heading to 6950 santa teresa boulevard?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Yes, I am. SYSTEM: You would like 1 seat on a regular ride to 6950 santa teresa boulevard?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that's what I want. How much would that be? SYSTEM: Your ride would arrive shortly and it costs $21.53.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: How long again before the cab gets here? SYSTEM: It would be there in 2 minutes.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thanks very much. I would need somewhere to get a bite when I get there. SYSTEM: What type of food? Indian, mexican or something else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to eat barbecue. SYSTEM: There are 10 suitable restaurants in San Jose. I would like to recommend 71 saint peter.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Would there be live music? What is the address? SYSTEM: There would be no live music and it is located at 71 north san pedro street.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I don't want to go there. Is there another restaurant in a some other location? SYSTEM: Bazille is a wonderful restaurant in san jose.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Something else please. SYSTEM: Billy berk's in San jose is an excellent choice.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that would be better. I would like a table for two. SYSTEM: For what time?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: For 10:30 am for 1 person. SYSTEM: You would like a table for 1 at billy berk's in san jose for 10:30 am on March 1st?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I want the reservation for wednesday next week. SYSTEM: You would like a reservation at billy berk's for march 6th?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That would be fine. SYSTEM: I apologize but the reservation was unsuccessful. Would you like me to do something else for you?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No. Thank you. SYSTEM: Enjoy your day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'd like to rent a car please. SYSTEM: Starting when and at what time?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Could I pick it up at 5 o\"clock in the evening on the 2nd? SYSTEM: Where would you like to do the pick up and until what date do you need it?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Until next Tuesday and I'd like to pick up in Fremont. SYSTEM: I have a standard Accord at Fremont BART Station on March 2nd.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Okay, sounds good. SYSTEM: Would you like to book the car?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, I would. SYSTEM: Confirming a standard vehicle rental from Fremont BART Station on March 2nd at 5 pm until March 5th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, great. How much is that? SYSTEM: It's $108 total and it's reserved.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I also need an apartment there, something with 3 bathrooms. SYSTEM: How many bedrooms?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Four bedrooms please. SYSTEM: How about Alborada Apartments, which is at 1001 Beethoven Common, and has 4 bedrooms and 3 bathrooms? It's $4,700 a month.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That's a good possibility. SYSTEM: Would you like to set up a viewing?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, not now. SYSTEM: Anything else then?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No, not at the moment. SYSTEM: Thank you very much.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I would like to find dates for events. SYSTEM: Which city and what type of event are we talking about?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: The Hives in SD. SYSTEM: The Hives are playing on March 4th at The Observatory North Park.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Where is that and what time does it start? SYSTEM: It starts at 6:30 pm at 2891 University Avenue.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I am interested in that event. Can you look for an economy bus ticket for me from Long Beach? SYSTEM: On what date, March 4th?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: The day after tomorrow. SYSTEM: There is an economy ticket for a bus leaving at 7 am and costing $29.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What station does it depart from and arrive at? SYSTEM: From Downtown station arriving at Santa Fe Depot.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Any other times? SYSTEM: There is an economy ticket available on a bus leaving at 8:40 am costing $21.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: i like the sound of that. SYSTEM: Would you like me to get tickets?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No not right now. SYSTEM: What else can I do for you?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I would like to check out hotels. SYSTEM: There is a lovely 3 star called Bahia Resort Hotel.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Any other three star options? SYSTEM: There is a lovely 3 star called Best Western Plus Bayside Inn.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Where are they? SYSTEM: They are at 555 West Ash Street.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: How much will it cost? SYSTEM: It is $270 per night.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Yes that sounds great. SYSTEM: Would you like me to book a room for you?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No I dont want to book anything. SYSTEM: What else can I assist you with?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I want four tickets for the event we talked about earlier? SYSTEM: To confirm then that is 4 ticket for the Hives on March 4th in San Diego.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes that is all right. SYSTEM: You booking is confirmed, I hope you have a great time.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thanks so much for all your help. SYSTEM: Do you need anything else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No that is all thanks. SYSTEM: Have a wonderful day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I would like to reserve event tickets. SYSTEM: Do you have a date and event in mind? How many tickets?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want two tickets to the Lizzo event next Thursday. SYSTEM: For what city?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I'm searching for events around SD. SYSTEM: Please confirm the following details: You have 2 tickets to Lizzo next Thursday in San Diego.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I want 1 ticket to an event on Wednesday next week. SYSTEM: Please confirm the following details: You have 1 ticket for an event next Wednesday.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that works. SYSTEM: Sorry, but I could not reserve the tickets for you. Is there anything else I can help you with?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Could you try again? I am looking for tickets to Nationals Vs Rockies around the District of Columbia. SYSTEM: Please confirm the following details: You have 1 ticket in your reservation for Nationals Vs Rockies next Wednesday in Washington D.C.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that works. SYSTEM: Sorry, I could not reserve the tickets for you. Is there anything else I can help you with?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No, thank you very much for your help. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm looking for somewhere to eat, and I don't care about the cost. SYSTEM: Do you want Indian food, Mexican food, or something else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Brasserie food sounds good. SYSTEM: What city?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: SF please. SYSTEM: I found 3 restaurants. Belga is a good restaurant in San Francisco.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want a restaurant that serves alcohol, so any other recommendations? SYSTEM: I found 1 restaurant. Volta Modern Brasserie is a great San Francisco restaurant.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Ok, that's good. SYSTEM: Do you want to reserve a table?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Nope. SYSTEM: Do you need any other assistance?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I want to watch a movie around the area. SYSTEM: I found 10 movies. Do you prefer Captain Marvel, Body Double, or Ash Is Purest White.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Body Double sounds good. SYSTEM: Do you want tickets?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Not right now. SYSTEM: Do you need any other help?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Nope, thanks for the help. SYSTEM: Have a nice day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Fine me a restaurant to eat at. SYSTEM: What city do you want?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Find me a restaurant in Castro Valley. SYSTEM: What type of food do you like?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I would like some Thai food. SYSTEM: Search found 1 restaurant which is the Top Thai Cuisine in Castro Valley.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is perfect. SYSTEM: Shall I make reservation for you?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, book me a table. SYSTEM: What time do you want to eat?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want to eat at twelve pm. SYSTEM: You want a table for 2 at the Top Thai Cuisine in Castro Valley at 12 pm on March 1st. Is that right?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I want eat there on the 6th of March. SYSTEM: You want to eat in Castro Valley on March 6th. Is that correct?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, that is correct. SYSTEM: Your table has been booked.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Is there live entertainment. SYSTEM: They do not offer live entertainment.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thanks a lot. Find me a movie to see on the Internet. SYSTEM: What genre of movies shall I search in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to watch some Funny movies. SYSTEM: Search revealed 10 results. A Madea Family Funeral, Auntie Mame, and Dr. Strangelove are all available.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: A Madea Family Funeral works for me. That is everything for now. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need a rental car on the 11th of March. SYSTEM: What day do you want to return it?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want an intermediate car and will return it on March 13th. SYSTEM: When and where do you want to get it?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want to get the car at 9:30 in the morning in NYC. SYSTEM: I found a Standard Altima at Port Authority Station on March 11th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: How much will this cost me? SYSTEM: Your total bill is $60.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What else can you find? SYSTEM: There is a Standard Elantra at Port Authority Station on March 11th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: How much will this cost me? SYSTEM: Your total will be $54.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That works for me. Can you find me a bus to get there? SYSTEM: Are you departing March 11th?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, I am departing on the 5th. SYSTEM: What city are you departing from?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I am departing from Washington. SYSTEM: Search found 8 results for you. A bus with 0 stops departs at 8:10 am and costs $36.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Can you find something else for four people? SYSTEM: Search revealed 7 results. A Bus with 0 stops departs at 8:20 am and costs $39.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: That works for me. SYSTEM: Shall I get you tickets now?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, not right now. Find me Premium Economy tickets on Southwest Airlines to get there on the 7th. SYSTEM: Will you be back on March 13th?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No, I will be back on March 14th. SYSTEM: Southwest Airlines has a departure time of 4:50 pm and 9:50 pm respectively and a cost of $122.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Okay, I see. SYSTEM: Do you need something more?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, that is all. Thanks. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm looking for a salon. SYSTEM: In what city?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to find a salon in San Jose. SYSTEM: I found 10 salons. Atelier Salon Willow Glen is in San Jose.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What's the address? SYSTEM: The address is 1047 Lincoln Highway suite 101.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That sounds good. SYSTEM: Do you want an appointment?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, I want an appointment at 4 pm. SYSTEM: What day do you want the appointment?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want the appointment on the 13th of March. SYSTEM: Please confirm: a hair appointment at Atelier Salon Willow Glen at 4 pm on March 13th.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: No, I want the appointment at 11:30 on the 5th. SYSTEM: Please confirm: appointment on March 5th at 11:30 am.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Sounds good. Is it unisex? SYSTEM: Yes, it's a unisex salon. Your appointment was made.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I want to find a movie. SYSTEM: What about After, Breakthrough, or A Madea Family Funeral?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to find a 3d movie at CineLux Almaden. SYSTEM: Little, Shazam!, and The Curse of La Llorona are playing.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: The Curse of La Llorona sounds great. What are the times? SYSTEM: I found 1 showtime at 10:30 pm at CineLux Almaden Cinema.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: What's the address? SYSTEM: The address is 2306 Almaden Road.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Sounds great, thanks. SYSTEM: Do you want to buy tickets?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, not now. SYSTEM: Anything else I can do for you?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, thank you. SYSTEM: Have a great day.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I'd like to find some kid-friendly attractions in London, England. SYSTEM: May I suggest 30 St Mary Axe (The Gherkin)? It is a famous Historical Landmark.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Great. Can you help me reserve 3 rooms nearby? SYSTEM: Of course. Do you have a hotel preference? When will you be checking in and how many days will you need?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I'd like to stay The Queens Park and I will be checking in on the 1st for 1 day. SYSTEM: Can you confirm the details for me? You'd like 3 rooms at The Queens Park Hotel in London for arrival on March 1st and staying for 1 day. Is this correct?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I'm sorry. I'll be checking in on the 3rd of this month. SYSTEM: You will be checking in to The Queens Park Hotel on March 3rd. Is this correct.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I'm sorry, I need to change the reservation to just 1 room. SYSTEM: Can you confirm the following: You need 1 room at The Queens Park Hotel.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that's perfect. SYSTEM: Your room has been booked.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Great. Thank you! SYSTEM: Is there anything else I can help with today?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, that will be all. SYSTEM: Have a wonderful day!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to go to an event on the 5th of this month. SYSTEM: What event would you like?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Berkeley World Music Festival. SYSTEM: How many tickets do you want? What city should I look in?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I want four tickets to something in Berkeley. SYSTEM: You want 4 tickets to see the Berkeley World Music Festival in Berkeley on March 5th. Is this correct?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that's it. SYSTEM: Your tickets have been booked. Enjoy.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Where is it? SYSTEM: The address is 2500 Durant Avenue.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thanks. I also want to go to a restaurant that sells alcohol. I don't care about the prices. SYSTEM: What type of food do you like?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I like California food. SYSTEM: I found 3 restaurants for you. Chez Panisse is in Berkeley.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That's a good one. SYSTEM: Would you like to book a table?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Not right now. SYSTEM: Do you need anything else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No thanks. SYSTEM: Have a nice day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need a doctor. SYSTEM: In what city?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: In San Jose. SYSTEM: What kind of doctor do you need?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: i'm looking for a General Practitioner in Campbell. SYSTEM: There are 3 options. The first is Borodulin Tatyana MD, a general practitioner in Campbell.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I'm looking for a Gynecologist. Any other options? SYSTEM: What about Makela Women's Health: Sandra Makela, M.D., a Gynecologist in Campbell.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What's the address? SYSTEM: The address is 3425 South Bascom Avenue #235",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Awesome, that's perfect. SYSTEM: Did you want to book an appointment?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, not right now. SYSTEM: Is there anything else I can help you with?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Nope, that's all. SYSTEM: Okay, have a good day!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to find a bus leaving on the 6th of this month for 3 people. I want economy seats. SYSTEM: Where are you traveling?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I'm going to Seattle. SYSTEM: Where are you departing from?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I'm leaving from Vancouver, BC. SYSTEM: There's an economy ticket for $28 for a bus leaving at 6:40 am.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: What station does it leave from? SYSTEM: The bus leaves from Pacific Central Station.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That sounds good. SYSTEM: Do you want to purchase tickets?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, but not now. I want to find some attractions there. SYSTEM: Brandon Lee and Bruce Lee's Grave Site is a tourist attraction there.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What is the phone number? Is it child-friendly? SYSTEM: Yes, it is child-friendly. The phone number is 206-322-1582.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Ok, sounds good. I want to buy the bus ticket. SYSTEM: Please confirm: 3 economy seats for the bus leaving form Vancouver on March 6th at 6:40 am to Seattle.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, sounds good. SYSTEM: Your tickets have been booked.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want to book 3 hotel rooms there. SYSTEM: I found 10 hotels. The Ace Hotel Seattle has a rating of 4.5",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Is there anything else? SYSTEM: Belltown Inn is rated 4.2",
+        "Score": "3"
+    },
+    {
+        "text": "USER: What is the address and phone number? SYSTEM: The address is 2301 3rd Avenue and the phone number is +1 866-525-4704.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That sounds great. SYSTEM: Do you want to make a reservation?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, not now. SYSTEM: Anything else I can do for you?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, that's all. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I have a dental problem and I need to find a dentist. SYSTEM: Do you have a city in mind where to look for one?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want it to be in San Jose. SYSTEM: What do you think about A J Dental Lab situated in San Jose?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Don't want that one. Please look for one in Vallejo. SYSTEM: How would you consider the Dr Pucan Dental office which is in Vallejo?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Do they have a phone number? SYSTEM: If you want to contact them by phone you can at 707-552-3952.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Is it true that they offer also cosmetic services? Which is the place where they are situated? SYSTEM: As far as I can see they do not do cosmetic services. Their location is 2143 Springs Road # 51.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I would prefer to look into someone else. SYSTEM: What do you think about Dr. Eugene H. Burton Iii which is situated in Vallejo?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That's seems okay for me. I will go to the dentist. I want the appointment to be for 6th of March. SYSTEM: Is there any specific time you prefer?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I will be free from my work on March 12th. Is there an open space at five pm? SYSTEM: Please review and confirm back to me if the details about the appointment are correct such as that the appointment is with Dr. Eugene H. Burton Iii at 5 pm on March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Negative. Is there any possibility for afternoon 2? SYSTEM: Check the details and see if you can confirm back to me for the appointment being at 2 pm and on March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Seems great but do they do cosmetic services? Do they have a contact number? SYSTEM: I apologize but it has been impossible to make the requested appointment reservation. What else can I do to help you with?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Nothing more. I appreciate your help. SYSTEM: Have a good time! Thanks!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Hi there, could you help me search for a rental car please? SYSTEM: What is your preferred date of rental?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I will need to use the car from March 13th to 14th of March. SYSTEM: And where and what time will you be picking up the car from?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I will need to pick the car up from Fremont at half past 1 in the afternoon. SYSTEM: Sure, would you like a standard accord available for your pickup on March 13th at Fremont BART Station?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: How much will this cost me? SYSTEM: This will set you back $36 in total.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I see, are there any alternatives then? SYSTEM: How about a standard Altima available for your pickup on March 13th at Fremont BART Station?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: How much will this cost me? SYSTEM: This will cost you $34 in total.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That sounds great! SYSTEM: Do you require further assistance?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Could you reserve the car for me please? SYSTEM: Sure! Please confirm your reservation for a Standard car from Fremont BART Station from March 13th at 1:30 pm to March 14th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, this is great! SYSTEM: Your reservation has been made.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Could you also help me search for an apartment with that area, preferably one which allows pets and has three baths? SYSTEM: How many bedrooms do you require?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Just three will do. SYSTEM: Would you like to stay at Amber Court at 34050 Westchester Terrace, which has 3 bedrooms and 3 baths which will set you back $4,400 per month?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: May I have their contact number please? SYSTEM: You can call them at 510-794-9981.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Is this a furnished apartment? SYSTEM: Unfortunately, it is not.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I see, this is fine with me still. SYSTEM: Do you need me to schedule a visit there for you?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, that is not needed. SYSTEM: Could I further assist you then?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No, thanks alot though. SYSTEM: No worries, have a great day ahead!",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I want to find a doctor. SYSTEM: What sort of doctor do you need?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I need a gynecologist. SYSTEM: What city do I need to search in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Find me something in San Fran. SYSTEM: What about Amita Kachru, MD in San Francisco? She is a gynecologist.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Would you give me the phone number? SYSTEM: The phone number is 415-641-6996.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Could you tell me the address and rating? SYSTEM: The rating is 4.3 and the location is 1580 Valencia Street #508.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is good. SYSTEM: Do you want to make an appontment?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Yes, please book it. SYSTEM: What time is best for you?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Make the reservation for 3:30 in the afternoon. SYSTEM: When will you visit?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Could you book a visit for 9:45 in the morning on the 13th of this month? SYSTEM: Please confirm that you want to schedule an appointment with Amita Kachru, MD at 9:45 am on March 13th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, it should be the 4th of this month. SYSTEM: So you want an appointment at 9:45 am on March 4th?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, that is right. SYSTEM: Sorry, I wasn't able to book that appointment. What about Amita Kachru, MD on March 4th at 10 am?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is great. SYSTEM: Your appointment was made.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Could you get me a cab there? SYSTEM: How many seats are needed and what sort of ride do you want? You can take luxury or pool or something else.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I need a pool ride and am in a group of 1. SYSTEM: Could you confirm that you want a ride to 1580 Valencia Street #508 and that you need 1 seat in a pool ride?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is good. SYSTEM: Your ride was booked and the cab is on the way.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thank you for helping. SYSTEM: Would I be able to assist with anything else?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, but thank you for your assistance. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to find dates for some events. SYSTEM: Can you tell me the event you are interested in, and the location where you want the event to happen?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want to attend an event in Los Angeles. A friend of mine told me that the match of Sparks Vs Mystics is fun. SYSTEM: There are events on 8 days. One of the days is March 5th, and the event is the match of Sparks Vs Mystics at the STAPLES Center.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Can you tell me the address of the venue, and the time when the event starts? SYSTEM: The address of the venue is 1111 South Figueroa Street. The event is expected to start at 6 pm.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That seems nice to me. SYSTEM: Would you like having tickets bought for this event?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Maybe some other time. I need a place to sleep, so I want you to find me a room in a hotel there. SYSTEM: There are 10 hotels which match what you want. I can suggest a nice 2 star hotel called Ac Hotel By Marriott Beverly Hills.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That would suit me well. SYSTEM: Do you want to make a reservation for this hotel?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I do not want to make a reservation for this hotel. SYSTEM: Is there something else I can help you with?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I would like to go back at the buying of the tickets. SYSTEM: Can you tell me the number of tickets you need?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I am in need of having 4 tickets. SYSTEM: Can you please confirm that you want to buy 4 tickets for the match of Sparks Vs Mystics on March 5th in Los Angeles?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No that's not right, because I want to buy two tickets. SYSTEM: Can you please confirm that you want to buy 2 tickets for the match of Sparks Vs Mystics?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is what I want. SYSTEM: Your requested reservation has been made. Have a good time!",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I appreciate your help very much. That would be all. SYSTEM: Have a wonderful time!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I would like to purchase bus tickets. SYSTEM: Where will you leve from and what time do you need the bus to leave?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I would like the bus to leave at 10:45. I will go to Sacramento, CA. I want to leave from Long Beach. SYSTEM: How many tickets are you needing and when do you want to leave?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: It's for four people Thursday next week. SYSTEM: Please confirm tht you need 4 economy tickets. This bus leaves from Long Beach and will go to Sacramento on March 7th at 10:45 am. Is this right?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: That works for me. SYSTEM: Sorry, I was unable to buy tickets. How about a bus taht leaves at 10:40 am and costs $61?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: That works fine for me. SYSTEM: Your ticket has been confirmed.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I would like to buy four tickets on the 13th of March. I heard that Aftershock Festival is nice. SYSTEM: Could you confirm that you want to book 4 tickets for Aftershock Festival on March 13th at Sacramento?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I need two tickets for Republic Vs Toros. SYSTEM: Could you confirm that you need 2 tickets for Republic Vs Toros?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Sounds good. Where will this event be and when does it start? SYSTEM: The reservtion was made. Have a good time. The event starts at 5:30 pm at Papa Murphy's Park.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thank you for helping. SYSTEM: Could I assist with something else?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No that is it. SYSTEM: Have a good one.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'd like a salon SYSTEM: Sure, which area are you looking in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Oakland SYSTEM: There's 10 salons I've found. How about 17 Jewels Salon in Oakland?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What's their address and is it unisex? SYSTEM: Yes, it's unisex and 4801 Telegraph avenue",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Perfect, I'd like to make a 10:30 am appointment on the 8th SYSTEM: Please confirm: a 10:30 am appointment at 17 jewels salon on march 8th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Correct, what's their contact number? SYSTEM: This appointment is complete is 510-653-1059",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Thanks for all your help, can you find me a restaurant in the area? SYSTEM: Sure, would you like Italian, Indian, or something else?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Mexican SYSTEM: How about agave uptown in oakland?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Perfect, make a two in the afternoon reservation please. SYSTEM: Please confirm: A table for 2 at agave uptown at 2 pm on march 8th in oakland",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Sounds good. SYSTEM: Sorry, this reservation is not complete. May I assist you with something else?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Try making the reservation for 12 o\"clock in the afternoon. SYSTEM: Please confirm the updated reservation: a table for 2 at agave uptown in oakland for 12 pm on march 8th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Perfect, can you tell me if they have live music and if they serve liquor? SYSTEM: Reservation is complete. No, they don't have live music or serve alcohol.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Ok, thanks. SYSTEM: Would you like anything else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Nope, I'm all set. SYSTEM: Enjoy your day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm undecided on what event I want to attend next. Name some off for me and I'll decide on one. SYSTEM: Are there any specific events or locations that you are looking for?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'd be interested in attending the Golden Bears Vs Trojans events. It's an anticipated match-up. As far as location is concerned, I'm looking for something in Berkeley. SYSTEM: The Golden Bears Vs Trojans event will take place on March 2nd at the California Memorial Stadium.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Sounds good, but I was wondering if there are any other events. What about Jordan Rakei? Will they be performing in LAX anytime soon? SYSTEM: There is an event on 9 days in the near future. On March 1st, Jordan Rakei will be at the Regent Theater DTLA.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Tell me what the start time is. SYSTEM: The scheduled event will begin at 5 pm.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Tell me where the Regent Theater DTLA is located. SYSTEM: The Regent Theater is located at 448 South Main Street.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: I'm not sure if that day will work. What about other days for that event? SYSTEM: Another day for Jordan Rakei is March 4th at the Regent Theater DTLA.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That sounds like it would fit my schedule better. SYSTEM: Do you want tickets for the event on this date?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No I don't think I'll purchase those just yet. SYSTEM: Can I assist you with anything else today?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'll need transportation there. Can you find me tickets for the bus with a departure time of 7:15 in the morning? SYSTEM: Where will you be departing from?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I will be departing from San Francisco that day. SYSTEM: What day would you like to leave at 7:15? Is March 4th an acceptable date?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: That won't work for me. I am planning to make the trip later today. SYSTEM: How many tickets will you be needing then?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Please purchase 1 ticket for me. SYSTEM: Concerning your trip, you want to depart San Francisco to head to Los Angeles on March 1st at 7:15 am. If so, I will purchase 1 Economy class ticket for you.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes that works just fine for me. SYSTEM: I was not able to complete that transaction. Would a bus at 7 am for $50 be acceptable?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Not what I had in mind but it will have to do. SYSTEM: Your reservation has been confirmed.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Okay back to the event. Please purchase two tickets for the event for me. SYSTEM: Confirm the following. You want 2 tickets for Jordan Rakei on March 4th in Los Angeles?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes that information is correct. SYSTEM: I have booked your tickets and the reservation is confirmed.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What's the location of the venue again? SYSTEM: The event will be taking place at 448 South Main Street.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Okay thank you for the help. SYSTEM: Do you need help with anything else?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No thank you. I appreciate the help you provided. SYSTEM: You are very welcome. Have a good day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'd like to look up some attractions to see. SYSTEM: Okay. Where should I search?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Please look around London, UK. SYSTEM: I've heard good things about 30 St Mary Axe (The Gherkin). It is a Historical Landmark.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That sounds nice. Is there anything else that's kid-friendly? SYSTEM: I've found 9 other attractions. First on the list is Alexandra Palace. It is a Performing Arts Venue.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Is that a free attraction? SYSTEM: No, there is an entry fee there.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Oh, okay. I need to also find a hotel that allows pets there. I need to get 3 different rooms. SYSTEM: Sure. What do you think about 45 Park Lane. It has a rating of 4.7.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That sounds just fine. SYSTEM: Is there anything else I can do to help?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want to book a hotel until the 11th of March. SYSTEM: When do you expect to check in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'll need it starting Monday next week. SYSTEM: Okay, let me make sure. You want to book 3 rooms at 45 Park Lane in London starting March 4th and ending March 11th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is correct. What's the phone number for the hotel? SYSTEM: I made your reservation and the number is +44 20 7493 4545.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thanks for the help. SYSTEM: Is there anything else you need?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No. That will be all. SYSTEM: Have a wonderful day!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need assistance finding a 4 bedroom, three bath apartment that is pet friendly. SYSTEM: I can help with that. What city should I look in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm trying to find an apartment in San Jose. SYSTEM: Almaden Garden Apartments have 4 bedrooms, 3 bathrooms, and rents for $5,150 per month. It is located at 947 Branham Lane # C.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Can you also look for apartments in Hayward. SYSTEM: Yes, I found a 4 bedroom, 3 bathroom apartment at 1282 Mattox Road. It is the Alpine Vista Apartments and rent is $5,150 per month.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Does that apartment come furnished? Can you give me their contact number? SYSTEM: Sorry, the apartment does not come furnished. They can be reached at 510-886-0385.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What other apartments are available? SYSTEM: You may like Amador Apartments at 24660 Amador Street. A 4 bedroom 3 bath apartment rents for $4,950 a month.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I'm interested in that apartment. SYSTEM: Great, would you like to schedule a time to visit the property?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, can you make me an appointment please? SYSTEM: What day would you like to appointment for?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: The 11th of this month would be good. SYSTEM: You would like to schedule an appointment to see the Amador Apartments on March 11th, correct?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That's right. What is the phone number for the property? SYSTEM: Your appointment has been confirmed and the phone number is 510-849-6628.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Can you add this to my calendar for 9 in the morning? Call it visit appointment. SYSTEM: You would like to add Visit appointment to your calendar on March 11th at 9 am. The location is 24660 Amador Street. Do I have the information correct?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, add that to my calendar. SYSTEM: I have added the appointment to your calendar.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Perfect! Thanks! SYSTEM: Is there something else I can help you with?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, that was all I needed. SYSTEM: Have a wonderful day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need you to book an hotel for me, please SYSTEM: sure, I can do that for you, just tell me check-in and check-out dates.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Check-in is march 6th, check-out is 8th of march SYSTEM: where do you want me to look?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: the place is new york city SYSTEM: where do you want to stay? can you name me your favorite hotel?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: yes, it's four points soho SYSTEM: confirm me the acquired data: you want to make a reservation at four points by sheraton manhattan soho village in new york. You need 1 room from march 6th until march 8th",
+        "Score": "4"
+    },
+    {
+        "text": "USER: incorrect, I want to check out next thursday SYSTEM: confirm me the new data. The reservation is for four points by sheraton manhattan soho village and you'll leave the room on march 7th",
+        "Score": "2"
+    },
+    {
+        "text": "USER: yes, now you got it right SYSTEM: the reservation is done",
+        "Score": "4"
+    },
+    {
+        "text": "USER: awesome, now let's look for a way to get there, search for a one-way flight SYSTEM: tell me the departure city and if you want to leave on march 6th",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I will be leaving from SD this sunday, class is of no concern to me SYSTEM: you have 2 flights to chose from. one is with alaska airlines and it leaves at 3:20 pm, it has 1 stops and the ticket costs $244",
+        "Score": "4"
+    },
+    {
+        "text": "USER: where am I leaving from? SYSTEM: the airport is san international airport",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I could use this flight, buy me the ticket SYSTEM: confirm me the procedure. you're buying 1 economy ticket from alaska airlines. you'll fly from san diego on march 3rd to new york",
+        "Score": "4"
+    },
+    {
+        "text": "USER: no, you need to fix the number of passengers, we're traveling in 2 SYSTEM: confirm again then, the economy tickets are 2",
+        "Score": "2"
+    },
+    {
+        "text": "USER: yes, that's right SYSTEM: the tickets are bought",
+        "Score": "2"
+    },
+    {
+        "text": "USER: thank you SYSTEM: do you need more assistance?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No I don't, I salute you SYSTEM: bye bye",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Hi, could you help me find a nice apartment to stay at please? SYSTEM: What is your preferred location for the apartment and how many bedrooms would you prefer?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: One with four bedrooms in the San Ramon area will do. SYSTEM: Would you like Bel Air, a property situated at 2000 Shoreline Loop with 4 bedrooms and 3 baths, which will cost you $5,150 each month?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: May I know if pets are allowed on premises? SYSTEM: Sorry, pets are not allowed in the apartment.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: May I have their contact number and is the property furnished? SYSTEM: You can contact them at 925-307-7099 and unfortunately, this is an unfurnished property.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What a pity, but it still sounds great to me. SYSTEM: Would you like me to schedule a visit to the property for you?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Could you do so on the 12th of March please? SYSTEM: Sure, please confirm your visit to Bel Air on March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is great. SYSTEM: Your visit to the apartment has been scheduled.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thank you! Could you also add an event to my calendar titled Property? SYSTEM: Sure, what time is the event?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Just schedule it at half past 11 in the morning will do. SYSTEM: Please confirm your request to an an event titled Property at 11:30 am on March 12th at 2000 Shoreline Loop.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Sure, that sounds great to me! SYSTEM: Your event has been added to your calendar.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thank you, that is all the help I need for now. SYSTEM: Sure, have a great day ahead!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Hi there, could you help me search for some nice places to eat please? SYSTEM: Do you have any preference on the type of food, such as Chinese or American cuisine? And which location do you prefer to dine at?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I would prefer one which serves up some sushi in the San Francisco area. SYSTEM: How about 2g Japanese Brasserie in San Francisco?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Do they play live music? SYSTEM: Unfortunately, they do not.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: What a pity, but I'm okay with that. SYSTEM: Would you like me to make a reservation for you?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Perhaps at a later time. SYSTEM: Could I further assist you?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Sure, could you help me search for a salon there please? SYSTEM: Are you referring to the San Francisco area?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, that sounds good to me. SYSTEM: Would you like to visit 1512 Barber Shop in San Francisco?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: May I have their address please? SYSTEM: They are located at 1532 20th Street.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That's great! Could you schedule an appointment with them at 3:45 in the afternoon next Tuesday? SYSTEM: Sure, please confirm your appointment with 1512 Barber Shop at 3:45 pm on March 5th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Sorry, could you schedule the appointment on 12th of this month instead? SYSTEM: Sure, please confirm your appointment with 1512 Barber Shop at 3:45 pm on March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Sorry, could I visit them at evening 4 instead too? SYSTEM: Sure, please confirm your appointment with 1512 Barber Shop at 4 pm on March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is perfect! SYSTEM: No worries, your reservation has been made.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Could you reserve a table at 6:30 in the evening for the restaurant you previously entioned? SYSTEM: Please confirm your reservation for 2 at 2g Japanese Brasserie in San Francisco at 6:30 pm on March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, I am fine with that. SYSTEM: Your reservation has been made.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: May I know the price range of their food? SYSTEM: Their food are moderate priced.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: May I have their address and do they serve alcohol? SYSTEM: They are located at 601 Van Ness Avenue and do serve alcohol.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thank you! Could you play some music for me please? SYSTEM: Any preference on the song you would like?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I would love to listen to the song How Long Will I Love You. SYSTEM: Sure, please confirm your request to play How Long Will I Love You on the TV.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, may I know what is the music genre? SYSTEM: Enjoy listening to your music, which is a pop song.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I see, thank you so much! That is all I need. SYSTEM: No problem, enjoy your day ahead!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need somewhere to stay in? SYSTEM: Do you want a certain area? How about a hotel?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I'm looking around Seattle, how about a hotel? SYSTEM: Let's try Ace Hotel Seattle. It has 4.5 stars.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What is the phone there? Can I bring my baby kitten? SYSTEM: Bring the kitty, they're fine with it. Phone them at +1 206-448-4721.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Excellent, excellent, Little Meow Meow will love it. SYSTEM: How about a reservation?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Well, maybe in a bit. What's the weather there for the March 10th? SYSTEM: The temp there will be 69 degrees, high. There's a 39 % chance of rain.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What will the wind speed be? SYSTEM: It will be 6 miles per hour, quite low. Humidity isn't bad, only 25 %.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Fine, Get the room please. SYSTEM: When will you check out?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I'm leaving on the 13th. SYSTEM: you want to check in on March 10th, right?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I want to get there on Thursday, next week. SYSTEM: Ok, here's what I have: 1 room at Ace Hotel Seattle, in Seattle, checking in on March 7th. Leaving there on the morning of March 13th?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Wrong, I want to leave on the 10th of March 2019. SYSTEM: To reconfirm that detail, check in on March 7th, check out March 10th.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: You got it. That's good. SYSTEM: You have a reservation now.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Give me their address. SYSTEM: They are on 2423 1st Avenue.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Ideal, thanks. It's ideal. SYSTEM: Have a pleasant stay.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Hi, can you help me find two one way tickets please? SYSTEM: Sure, on what date will you be taking this trip, and where are you departing from and where would you like to go?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I would like a flight from Philly to New York leaving the 14th of this month please. SYSTEM: I have located a flight that is through American Airlines. The outbound flight will be leaving at 4:45 pm. This flight has 0 stops and is $60 per ticket.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Are those tickets refundable and what apart are we departing from? SYSTEM: This flight departs from PHL International Airport, and sorry these tickets are not refundable.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Do you have any other flights available with Economy seats? SYSTEM: Yes, I also have a flight with Delta Airlines with 0 stops for $63 that departs at 7:25 pm.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Not a huge fan of Delta, are there any other flights? I am not really concerned about the time. SYSTEM: I have also located a flight with Southwest Airlines with 0 stops. These tickets are $61 and departure time is 7:45 am.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is the flight I am more interested in. SYSTEM: Would you like for me to make your ticket reservations?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes please and thank you. SYSTEM: Okay, I would just need you to confirm 2 Economy class tickets with Southwest Airlines, that will be departing from Philadelphia and going to New York on March 14th?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes that is correct. Also are these tickets refundable and when does the onward flight arrive? SYSTEM: Okay, I have confirmed your ticket reservations. The onward flight will be arriving at 8:36 am, and sorry these tickets are not refundable.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Okay, thanks for the help. SYSTEM: Did you need anything else?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Nope, that would be it. SYSTEM: Thank you and have a safe trip.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Can you get me a round trip plane ticket? SYSTEM: Sure what is you itinerary?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm going from Seattle to Atlanta, GA. SYSTEM: Do you have your travel dates?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm leaving March 5th and returning March 13th. I need American Airlines, economy please. SYSTEM: I have 1 flight. It's American Airlines and it leaves at 9:45 pm and the flight back leaves at 9:35 pm. It Costs $190.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Which airport do I land in? SYSTEM: You'll go to Hartsfield-jackson International Airport.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: That's great. Get my tickets. SYSTEM: Sure: 1 economy seat for American Airlines flight departing at 9:45 pm on March 5th from Seattle and going to Atlanta. You'll return, boarding the 9:35 pm flight on March 13th?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, do it. SYSTEM: You are set.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Great. Get me a hotel. SYSTEM: There are at least 10 options. What about 4.5 star Ac Hotel by Marriott Atlanta Buckhead At PHipps Plaza",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Nope try again. SYSTEM: We have a 4.3 star hotel. Ac Hotel By Marriott Atlanta Downtown.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Ugh, hate that. SYSTEM: I can get you in at the 4.0 rated Aloft Atlanta Downtown.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What is its address and does it allow pets? SYSTEM: Does Ted Turner love Buffalo, sure. It's on 300 Ted Turner Drive Northwest.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Perfect, love that one. SYSTEM: How about a reservation?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Surely, do that. SYSTEM: Do you want to check out on March 13th?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, on the 12th of this month. SYSTEM: How about a check in on March 5th?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: no, two rooms on March 11th though. SYSTEM: Here's what I have: 2 rooms at Aloft Atlanta Downtown in Atlanta on March 11th, checking out the next morning on March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: You got it. SYSTEM: You're set up.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Thanks, give me a historical spot. I'm looking for stuff to see. SYSTEM: There are 3. What about King Jr Martin Luther- Birth home? It's a historical landmark.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: It it a freebie? SYSTEM: Yes, no charge.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Great, thanks a lot. SYSTEM: Safe travels to you.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need to find a 3 bed room apartment. SYSTEM: What area do you want to live in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I am looking for a place in Sunnyvale. SYSTEM: I found 10 apartments. First, Apricot Pit Apartments located at 400 East Remington Drive. It has 3 bed rooms and 3 baths. The rent is $4,150 per month.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What is the phone number? SYSTEM: The phone number is 408-738-4862.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Can you find me other options? SYSTEM: Next, Arbor Terrace Apartments located at 555 East El Camino Real. The apartment has 3 bed room and 3 baths. The rent is $4,300 per month.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Is the apartment furnished? SYSTEM: No, it is not.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Yes, when am I free on the 7th of this month? SYSTEM: On March 7th you are available from 3:30 pm to 5:30 pm.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That will work. SYSTEM: Would you like to add this to your calendar?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, not yet. SYSTEM: Is there anything else today?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Yes, please schedule a visit to the apartment. SYSTEM: Please confirm, visiting Arbor Terrace Apartments on March 7th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, thank you! Are pets allowed? What is the phone number? SYSTEM: Your visit is scheduled. Pets are not permitted. The phone number is 408-738-0935.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thanks a lot! SYSTEM: Is there anything else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, that is all. SYSTEM: Have a nice day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need to find a bus leaving from Philly on the 8th of this month. I need tickets for three people SYSTEM: Where would you like to go?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I want to go to Los Angeles. I'm leaving from Long Beach. SYSTEM: I found 10 buses that you might like. There is one the departs at 6:40 am. It has 0 transfers and costs $11.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What station does that arrive at? SYSTEM: It arrives at Union Station.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Are there any other options? SYSTEM: There is also a bus departing at 7:40 am. It has 0 transfers and costs $12.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What station does that leave from? SYSTEM: The bus leaves from Downtown Station.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Okay, that one is fine. Can you find me a basketball game to go to there? I'd like one on the 9th. SYSTEM: What type of event are you looking for?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I'd prefer some sports. SYSTEM: How about the Sparks vs Mystics at the STAPLES Center?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That works for me. SYSTEM: Should I buy tickets to the event?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, not at this time. SYSTEM: Is there anything else you need?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yeah, what attractions are there to visit there? SYSTEM: You could see Angels Flight Railway, which is a historical landmark.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Is that a good place for kids? SYSTEM: No, it's probably not a good place to take your kids.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Is it free to get in? SYSTEM: No, it is not free.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Alright, can you find me a house to stay at there? SYSTEM: I found a house located at 1020 South Figueroa Street that is rated 4.2.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That house would be great. SYSTEM: Would you like to reserve the house?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, not at this time. SYSTEM: Do you need anything else?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, that's all for now. SYSTEM: Okay, have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to find bus tickets. SYSTEM: Where are you departing from? When do you want to leave?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to leave in the afternoon 1:45 form San Fran on the 11th of March. SYSTEM: Where are you traveling to?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I'm going to Sacramento. SYSTEM: How many tickets do you want?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I need 3 economy tickets leaving from Long Beach, CA. SYSTEM: Please confirm: Bus leaving from Long Beach to Sacramento on March 11th a 1:45 pm. 3 economy seating tickets.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Yes, that sounds great. SYSTEM: Sorry, I couldn't purchase those tickets. There is a bus leaving at 1:40 pm for $55.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Yes, sounds good. SYSTEM: Your ticket purchase has been confirmed.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Thank you, I need to find a hotel as well. SYSTEM: The Best Western Plus Sutter House has a 4.3 rating.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Are pets allowed? SYSTEM: No, they are not allowed.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: What is the address and phone number? SYSTEM: The address is 1100 H Street and the phone number is +1 916-441-1314.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Sounds good. Please make a reservation. SYSTEM: Would you like to check in on March 11th? When do you want to check-out?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes. I want to check out on the 12th. SYSTEM: Please confirm: reservation for 1 room at Best Western Plus Sutter House in Sacramento on March 11th. Check-out is March 12th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, sounds great. SYSTEM: Your reservation has been made.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: What's the price? SYSTEM: The price is $240.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thanks so much. SYSTEM: Anything else I can do for you?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No, that's all. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I need tickets to The Drums events. Find me two tickets to the March 7th event. SYSTEM: Do I need to look in a particular city?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want something else around San Fran. SYSTEM: Could you confirm that I should book tickets for The Drums? You have 2 tickets in your reservation and the event is March 7th. This event will take place in San Francisco.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, the event is actually Okkervil River. SYSTEM: Could you confirm that you need tickets for Okkervil River in San Francisco?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is good. Where is the location? SYSTEM: Your reservatoinw as made. The address is 777 Valencia Street. Enjoy!",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I would also like to find a restaurant there. Ramen type of food would be good. I do not care too much about price. SYSTEM: 2g Japanese Brasserie is a good restaurant in San Francisco.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is fine. I would like to make a restaurant reservation for 10:30. SYSTEM: Could you confirm that you want to book a table at 2g Japanese Brasserie in San Francisco? This reservation should be at 10:30 am for 2 people on March 7th.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is good. SYSTEM: Sorry, but your reservation didn't go through. Would I be able to assist with something else?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Try agan for 12:15 in the afternoon please. SYSTEM: Okay, so you want to book at 2g Japanese Brasserie in San Francisco at 12:15 pm for 2 on March 7th?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, that works perfectly. SYSTEM: Your reservation was made.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Is live music available? SYSTEM: No, there is no live music.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: What is the contact number and address? SYSTEM: The address is 601 Van Ness Avenue and phone number is 415-292-9997.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Thanks so much. That is all I need. SYSTEM: Have a great day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Hello! Can you help me find a hotel room? SYSTEM: I'd be happy to help. Where should I begin the search?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I'm looking for something in New York. SYSTEM: May I suggest 1 Hotel Brooklyn Bridge? It is a well reviewed, 4 star hotel.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: What other options do I have? SYSTEM: If you would like a 5 star hotel, 1 Hotel Central Park is beautiful.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That sounds lovely. SYSTEM: Would you like to book a room there?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Yes, but not at this time. SYSTEM: What else can I do for you today?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I'd like to find a bus traveling there. SYSTEM: Where are you departing from and are you planning to leave on March 4th?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes. There are two in my party and we will be leaving Philly. SYSTEM: There are 8 options for you to consider. The 8:30 am bus has 0 transfers and tickets cost $25.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That's fine. Can you reserve that hotel room for me now? SYSTEM: How long will you be staying? Is March 4th your arrival date?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I will be arriving on the 10th and staying 1 night. SYSTEM: You'd like 1 room at 1 Hotel Central Park in New York on March 10th for 1 night. Is that correct?",
+        "Score": "5"
+    },
+    {
+        "text": "USER: No, I'm sorry. I need to make some adjustments. I need it for 3 days beginning on the 9th of this month. SYSTEM: You'd like to book the room for March 9th for 3 days. Is that right?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I need two rooms. SYSTEM: Can you confirm the following: You'd like 2 rooms for 3 days.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That is correct. SYSTEM: Your reservation has been successful. You should receive an email confirmation shortly.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Great! Can you find a song from seven years back? I like Soundtracks, something from Pitch Perfect if possible. SYSTEM: There is 1 song in your playlist that you may enjoy. Would you like to hear Cups as sung by Anna Kendrick from the album Pitch Perfect?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that's the one I was thinking of. Can you play it now? SYSTEM: You'd like to hear Cups on the TV speaker. Is that right?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes, that is correct. SYSTEM: Your selection has begun.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Thank you for all of your help. SYSTEM: You're welcome. Have a wonderful day!",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Would you show me some attractions I could visit? SYSTEM: What area should I search in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Find Philadelphia attractions. SYSTEM: How about Art Museum Steps? It's a tourist attraction.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Okay, I want some fun things to do there. I want to see one this Saturday. Football events are great. SYSTEM: Are there any sorts of events that you prefer? Say something like music, sports or something else.",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I want to see some Sports events. SYSTEM: I have 2 events that should work. One is Owls Vs Huskies at Lincoln Financial Field.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: When does it start and where is the venue located? SYSTEM: The event starts at 5:30 pm and is located at 1 Lincoln Financial Field Way.",
+        "Score": "5"
+    },
+    {
+        "text": "USER: Sounds great to me. SYSTEM: Would you like to purchase tickets for this event?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: No, I do not want tickets. I want to find a house to stay at. SYSTEM: I have a nice house that is at 1 Logan Square and it's rated 4.4.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: That house sounds good. How about a bus to get there? I need one for four leaving from Washington. SYSTEM: When will you depart? Is March 2nd good?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want to leave later today. SYSTEM: How about a bus that leaves at 7:10 am? This costs $30 and is an economy ticket.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Do you have something else?I want to leave this Saturday and prefer Economy extra tickets. SYSTEM: What do you think about a bus leaving at 7:50 am? This is an economy extra ticket that costs $35.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Sounds good to me. SYSTEM: Would you like to purchase bus tickets?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No that is all. SYSTEM: Have a good day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I want to find a movie to wathc SYSTEM: what is your location?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: can you search for movies shown in San Jose.i like Adventure movies. SYSTEM: How about Captain Marvel or Shazam!?",
+        "Score": "4"
+    },
+    {
+        "text": "USER: please find some other movies. SYSTEM: Sorry, I can't find any movie mathng your requirements. Can I help you with anything else?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: I like Documentary movies. could you try again? SYSTEM: How about Breakthrough?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Can you search for moveis shown SFO. I want to watch at Roxie Theater. Please find some other movies. SYSTEM: How about JT Leroy? I found 1 movies.",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Jt Leroy is perfect. SYSTEM: Can I help you with anything else?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: What time can I watch it ? SYSTEM: Wheat date do you want to watch it on?",
+        "Score": "1"
+    },
+    {
+        "text": "USER: I want to watch a regular show. I want to want it on 3rd of this month. SYSTEM: There's one show at 7 pm in Roxie Theater. I fond 1 showtimes for the movie",
+        "Score": "2"
+    },
+    {
+        "text": "USER: How much is the ticket? What's the address of the theater? SYSTEM: The price is $16 dollars per person/ the theater's address is 3117 16th st.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Sounds good. SYSTEM: Would you like to buy tickets?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: No, I don't want to purchase now. SYSTEM: Can I help you with anything else?",
+        "Score": "2"
+    },
+    {
+        "text": "USER: No. thank you for your help. SYSTEM: Have a good day.",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm looking for a General Practitioner SYSTEM: What city are you looking in?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Somewhere in San Carlos. SYSTEM: How about Janice Kim, M.D. in San Carlos, she's a General Practitioner",
+        "Score": "2"
+    },
+    {
+        "text": "USER: Yes that works, now find me a luxury cab headed to 301 Industrial Road Level 3 SYSTEM: How many seats do you need?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: I'm gonna be in a group of three SYSTEM: Please confirm you want a Luxury ride for 3 headed to 301 Industrial Road Level 3",
+        "Score": "4"
+    },
+    {
+        "text": "USER: Yes that works, how much is it and how long till it gets here? SYSTEM: I booked a ride for you and it should be there in 12 minutes. It'll cost you $51.72",
+        "Score": "4"
+    },
+    {
+        "text": "USER: I want to find restaurant to eat at as well. SYSTEM: What kind of food are you thinking of?",
+        "Score": "3"
+    },
+    {
+        "text": "USER: Some Cantonese would be great! SYSTEM: I found 3 restaurants including a nice place called Hot Wok Bistro Too in San Carlos",
+        "Score": "4"
+    }
+]

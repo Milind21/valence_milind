@@ -23,7 +23,7 @@ def calculate_llm_metrics(gold_path, pred_path):
     for entry in data2:
         if 'Score' in entry:
             pred.append(entry['Score']) 
-    gold_label=gold_label[:100]
+    gold_label=gold_label[:500]
     gold_label = [int(item) for item in gold_label]
     pred = [int(item) for item in pred]
     recall = [[0,0] for _ in range(5)]
@@ -35,6 +35,7 @@ def calculate_llm_metrics(gold_path, pred_path):
     kappa = np.absolute(cohen_kappa_score(pred,gold_label))
     rho = np.absolute(spearman(gold_label,pred))
     print(f"UAR:{UAR}\nkappa:{kappa}\nrho:{rho}\n")
+    # print(f"kappa:{kappa}\nrho:{rho}\n")
     
 def main():
     if len(sys.argv) != 3:
